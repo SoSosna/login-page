@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+}
+
+.leftside {
+    width: 35%;
+    background: linear-gradient(0deg, rgb(255, 14, 195), rgba(7, 197, 255, 0.24)), url(./6rbkf4zn-5o.jpg);
+    box-shadow: 30px 10px 60px 15px;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lefttitle {
+    margin-bottom: 30px;
+    color: blanchedalmond;
+    font-size: 70px;
+
+}
+
+
+.leftBox {
+    width: 85%;
+    color: bisque
+}
+
+.leftDesk {
+    margin: 30px;
+    color: aliceblue;
+    font-weight: 300px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.leftmindDesk {
+    margin-left: 80px;
+    color: rgb(255, 253, 253);
+    font-weight: lighter;
+}
+
+
+.rightside {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    background-image: url(./Pink-blue-white-spot-wallpapers-1920x1080-768x432.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+
+
+}
+
+.rightbox {
+    width: 70%;
+    margin-top: 100px;
+}
+
+.righttitle {
+    margin: 8px;
+    font-size: 36px;
+}
+
+.rightDesk {
+    margin: 15px 8px;
+}
+
+.a {
+
+    size: 10px;
+    text-decoration: double;
+    color: rgb(28, 1, 41);
+    touch-action: manipulation;
+}
+
+.rightForm {
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.pierwszy {
+    width: 100px;
+    height: 50px;
+    border: solid;
+    border-radius: 50px;
+    border-color: indigo;
+    background-color: rgba(25, 206, 70, 0.959);
+    color: rgb(238, 236, 237);
+
+
+}
+
+.drugi {
+    width: 100px;
+    height: 50px;
+    border: solid;
+    border-radius: 50px;
+    border-color: indigo;
+    background-color: rgba(28, 5, 131, 0.863);
+    color: rgb(247, 238, 248);
+}
+
+
+.rightDesk {
+    margin: 100 px 100 px 100px 100px;
+}
+
+.filed {
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
+    margin-top: 90 px;
+    font-size: 16px;
+    background-color: rgba(236, 213, 236, 0.548);
+    color: rgb(0, 0, 0);
+
+}
+
+.Button {
+    height: 30px;
+    width: 100px;
+    color: blueviolet;
+    background-color: azure;
+}
+
+.check {
+    color: rgb((59, 7, 107)0);
+    text-decoration: none;
+}
+
+.klik {
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    border: solid purple;
+    margin-top: 30px;
+    box-shadow: 0 8px 15px 2px pink;
+    margin-left: 10px 10px 10px 900px;
+    background-color: blueviolet;
+}
+
+@media (max-width: 1024px) {
+    .lefttitle {
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 570px) {
+    .wrapper {
+        flex-direction: column;
+
+    }
+
+    .leftside {
+        width: 100%;
+        padding:25px;
+    }
+    .rightside{
+        width:100%;
+        padding:25px;
+        
+    }
+}
